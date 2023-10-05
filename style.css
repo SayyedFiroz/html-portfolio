@@ -1,50 +1,59 @@
 html{
     font-family: sans-serif;
-    margin: 50px;
-    background-color: #27374D;
+    background-color: white;
+    color:black;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+  margin: 0px;
+}
+.hero{
+    margin-bottom: 0rem;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.herobg{
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: auto;
+    max-width: 100%;
+}
+.hero-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-startx;
+    align-self: self-start;
 }
 h1{
-    font-size: 3rem;
-    color:#DDE6ED ;
+    font-family: JetBrains Mono,monospace;
+    margin: 0px;
+    font-size: 4vw
 }
 h2{
-    font-size: 2rem;
-    color: #DDE6ED;
+    margin:0rem;
+    margin-left: 0.4rem;
+    font-size: 2vw;
+    font-family: Google Sans,Roboto,Helvetica Neue,sans-ser;
 }
-.heading>a{
-    display: block;
-    font-size: 1.5rem;
-    color:#DDE6ED;
-    background-color:#27374D ;
+.infoimg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-img{
-    height: 30%;
-    width: 40%;
-    border-radius: 5%;
-    display:cover;
+/*
+head font weight 700
+sub font *font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-}
-.card{
-    width: 100%;
-    border-radius:2%;
-    background-color: #526D82;
-}
-#wd-img{
-    padding: 10px;
-    padding-bottom: 20px;
-    height: 150px;
-    border-radius: 3.5%;
-}
 
-a{
-    color: #DDE6ED;
-    position: relative;
-    top:11px;
-    border-radius: 5%;
-    padding: 5px;
-    background-color: #27374D;
-    text-decoration: none;
+*/
+@media (min-width:1000px)
+{
+    body{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
