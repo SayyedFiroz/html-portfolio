@@ -6,6 +6,8 @@ html{
 }
 body{
   margin: 0px;
+  width:100%;
+  height: auto;
 }
 .hero{
     margin-bottom: 0rem;
@@ -33,7 +35,7 @@ body{
 h1{
     font-family: JetBrains Mono,monospace;
     margin: 0px;
-    font-size: 4vw
+    font-size: 6vw;
 }
 h2{
     margin:0rem;
@@ -41,8 +43,46 @@ h2{
     font-size: 2vw;
     font-family: Google Sans,Roboto,Helvetica Neue,sans-ser;
 }
+h3{
+    font-family: JetBrains Mono,monospace;
+    font-size: 3vw;
+    font-weight: bolder;
+    margin: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+
+}
 .infoimg{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill{
+    width: auto;
+    background-color: #d9d9d9;
+    
+}
+.skill-top{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+        gap:0px;
+        place-items: center;
+}
+.skill-main{
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+}
+p{
+    margin-top: 2rem;
+}
+.herotext{
+    font-size: 1.75rem;
 }
 /*
 head font weight 700
@@ -56,4 +96,5 @@ sub font *font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-ser
         margin-left: 2rem;
         margin-right: 2rem;
     }
+
 }
