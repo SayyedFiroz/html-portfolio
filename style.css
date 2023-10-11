@@ -1,13 +1,14 @@
 html{
     font-family: sans-serif;
-    background-color: white;
-    color:black;
+    background-color: #182747;
+    color:#182747;
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body{
   margin: 0px;
   width:100%;
   height: auto;
+  background-color: #D8D8D8;
 }
 .hero{
     margin-bottom: 0rem;
@@ -16,6 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: auto;
 }
 .herobg{
     position: relative;
@@ -36,31 +38,54 @@ h1{
     font-family: JetBrains Mono,monospace;
     margin: 0px;
     font-size: 6vw;
+    color :#182747;
 }
 h2{
     margin:0rem;
     margin-left: 0.4rem;
     font-size: 2vw;
     font-family: Google Sans,Roboto,Helvetica Neue,sans-ser;
+    color:#8e8c8c;
 }
 h3{
     font-family: JetBrains Mono,monospace;
-    font-size: 3vw;
-    font-weight: bolder;
-    margin: 1rem;
-    width: 100%;
-    margin-top: 1rem;
-    padding-top: 1rem;
+    font-weight: bold;
+    max-width: 100%;
+    margin-top: 0rem;
     margin-bottom: 1rem;
-    margin-left: 1.5rem;
-
+    padding: 1rem 0rem 1rem 1rem;
+    /* border: 1px solid black; */
+    color:#D8D8D8;
+    background-color:  #182747;
+  
 }
+h4{
+    margin: 1rem 0rem 2rem ;
+    font-family: JetBrains Mono,monospace;
+    color: black;
+}
+span
+{
+    font-size: 1.3rem;
+    font-family: JetBrains Mono,monospace;
+    color:black;
+}
+p{
+    margin-top: 0rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color:black;    
+}
+
 .infoimg{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid black;
+
 }
 .skill{
     width: auto;
-    background-color: #d9d9d9;
+    background-color: 647E68;
+  
     
 }
 .skill-top{
@@ -68,7 +93,7 @@ h3{
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
         gap:0px;
-        place-items: center;
+        place-items: start;
 }
 .skill-main{
     display: flex;
@@ -78,12 +103,19 @@ h3{
     align-items: center;
     width: 10vw;
 }
-p{
-    margin-top: 2rem;
+.skill-para{
+    margin-top: 1rem;
 }
-.herotext{
-    font-size: 1.75rem;
+.Project-main{
+    display: flex;
+    margin-left: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    flex-wrap: wrap;
 }
+
 /*
 head font weight 700
 sub font *font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -92,9 +124,8 @@ sub font *font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-ser
 */
 @media (min-width:1000px)
 {
-    body{
+    html{
         margin-left: 2rem;
-        margin-right: 2rem;
     }
 
 }
